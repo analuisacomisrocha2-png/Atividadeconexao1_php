@@ -11,10 +11,11 @@
 
 <body>
    
-    <h1>Resultado da Soma</h1>
+   <h1>Resultado da Soma</h1>
+<p>
     <?php
 
-include "formconexao.php";   
+  include "formconexao.php";   
 
     $num1 = $_POST['numero1'];
     $num2 = $_POST['numero2'];
@@ -27,6 +28,7 @@ $conexao->query($sql);
 echo "O resultado é $soma";
 
     ?>
+ </p>
 </body>
 
 </html>
