@@ -17,7 +17,7 @@ $porta
 
 );
 
-echo "O resultado do numerto1 é $num1, numero2 é $num2, eo resultado é $resultado"
+echo "O resultado do numerto1: $num1, numero2: $num2, eo resultado: $resultado"
 
 
 ?>
