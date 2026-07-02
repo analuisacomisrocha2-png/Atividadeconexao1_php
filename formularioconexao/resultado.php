@@ -14,7 +14,8 @@
     <h1>Resultado da Soma</h1>
     <?php
 
-   
+include "formconexao.php";   
+
     $num1 = $_POST['numero1'];
     $num2 = $_POST['numero2'];
     $soma = $num1 + $num2;
