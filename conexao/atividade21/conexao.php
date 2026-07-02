@@ -1,21 +1,16 @@
-<?php 
-
+<?php
 $host = "localhost";
 $usuario = "root";
 $senha = "senac";
-$banco = "conexao3php";
+$banco = "conexaomultphp";
 $porta = "3307";
 
-
 $conexao = new mysqli(
-
-$host,
-$usuario,
-$senha,
-$banco,
+$host, 
+$usuario, 
+$senha, 
+$banco, 
 $porta
-
 );
 
-
-?>
+?> 
