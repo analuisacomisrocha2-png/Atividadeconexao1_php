@@ -1,0 +1,36 @@
+body{
+
+width: 100%;
+display: flex;
+justify-content: center; 
+align-items: center;   
+height: 100vh;         
+margin: 0;
+padding: 10px;  
+background-color: #8a0d75; 
+color: rgb(254, 255, 254);
+}
+
+h1{
+    color: rgb(253, 252, 252);
+    text-align: center;
+}
+
+form {
+    padding: 100px;
+    border: 1px solid #bd1083;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+echo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
