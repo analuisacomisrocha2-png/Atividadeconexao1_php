@@ -3,7 +3,7 @@
 $host = "localhost";
 $usuario = "root";
 $senha = "senac";
-$banco = "formulario";
+$banco = "produtos";
 $porta = "3307";
 
 
