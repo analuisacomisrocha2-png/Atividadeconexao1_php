@@ -11,10 +11,10 @@ $cidade=$_POST['cidade'];
 $sql= "INSERT INTO form (nome, idade, email, telefone, cidade)
 VALUES ('$nome','$idade', '$email', '$telefone', '$cidade')";
 
-if ($conexao->query($sql)){
+if ($conexao->query($sql) === TRUE) {
     echo "Dados enviados com sucesso...";
 }else {
-    echo "Erro ao enviar os dados...";
+    echo "Erro ao enviar os dados..." . $conexao->error;
 }
 
 ?>
