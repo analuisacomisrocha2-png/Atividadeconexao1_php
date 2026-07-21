@@ -3,7 +3,7 @@ include"banco.php";
 
 $id = $_GET['id'];
 
-$sql ="SELECT * FROM form WHERE is = $id";
+$sql ="SELECT * FROM form WHERE id = $id";
 
 $resultado =$conexao->query($sql);
 

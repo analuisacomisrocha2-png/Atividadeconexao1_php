@@ -1,6 +1,9 @@
 <?php 
 include "banco.php";
 
+$id = $_POST['id'];
+//receber os dados digitados pelo usuario
+
 $nome=$_POST['nome'];
 $idade=$_POST['idade'];
 $email=$_POST['email'];
@@ -8,22 +11,20 @@ $telefone=$_POST['telefone'];
 $cidade=$_POST['cidade'];
 
 
-$sql= "UPDATE sistema
-SET 
-nome:'$nome';
-idade:'$idade';
-email:'$email';
-telefone:'$telefone';
-cidade:'$cidade';
-WHERE id = $id";
+$sql= "UPDATE form SET 
+nome ='$nome',
+idade ='$idade',
+email ='$email',
+telefone ='$telefone',
+cidade ='$cidade' WHERE id = '$id'";
 
-if ($conexao-> real_query($sql)) {
+if ($conexao->query($sql)) {
     header("location : listar_cliente.php");
 
       exit();
 
 }else {
-    echo "Erro ao atualizar o cliente..." . $conexao->error;
+    echo "Erro ao atualizar o cliente...";
 }
 
 
