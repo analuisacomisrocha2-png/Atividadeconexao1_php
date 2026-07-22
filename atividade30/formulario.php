@@ -9,30 +9,30 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="./css/styele3.css">
+    <link rel="stylesheet" href="./css/styele4.css">
 
 </head>
 
 <body>
-    <form action="./enviar_produto.php" method="POST">
+    <form action="./enviar_funcionario.php" method="POST">
         <div class="h1">
             <h1>Formulário do Produto</h1>
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Nome do produto:</label>
+            <label for="exampleInputEmail1" class="form-label">Nome do completo:</label>
             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nome">
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Cadecoria:</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" name="categoria">
+            <label for="exampleInputPassword1" class="form-label">Cargo:</label>
+            <input type="number" class="form-control" id="exampleInputPassword1" name="cargo">
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Quantidade:</label>
-            <input type="number" class="form-control" id="exampleInputEmail1" name="quantidade">
+            <label for="exampleInputEmail1" class="form-label">Departamento:</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" name="departamento">
         </div>
          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Preço:</label>
-            <input type="number" class="form-control" id="exampleInputPassword1" name="preço">
+            <label for="exampleInputPassword1" class="form-label">Salario:</label>
+            <input type="number" class="form-control" id="exampleInputPassword1" name="salario">
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Entrega:</label>
