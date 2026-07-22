@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(58, 34, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;   
+}
+
+form{
+    background-color: rgb(135, 101, 179);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+
+}
+
+button{
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
