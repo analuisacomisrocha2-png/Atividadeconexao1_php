@@ -3,7 +3,7 @@
 $host = "localhost";
 $usuario = "root";
 $senha = "senac";
-$banco = "formulario";
+$banco = "aluno";
 $porta = "3307";
 
 
@@ -17,5 +17,7 @@ $porta
 
 );
  
-$conexao->connect_error
+if ($conexao->connect_error) {
+    die("Falha na conexão: " . $conexao->connect_error);
+}
 ?>
