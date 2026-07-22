@@ -21,6 +21,7 @@ echo "Cidade".$cliente['cidade']."<br>";
 
 echo "<a href='editar_cliente.php?id= ". $cliente['id'] . "'> <button> Editar </button> <a/>";
 echo "<a href='excluir_cliente.php?id= ". $cliente['id'] . "'> <button> Excluir </button> <a/>";
+echo "<a href='salvar_cliente.php?id= ". $cliente['id'] . "'> <button> Cadastrar </button> <a/>";
 
 echo "<hr>";
 
