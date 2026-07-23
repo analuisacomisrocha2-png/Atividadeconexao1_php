@@ -10,7 +10,7 @@ if($conexao->query($sql)){
 
     exit();
 }else{
-    echo "Erro ao enviar pra cliente...";
+    echo "Erro ao excluir pra cliente...";
 }
 
 ?>
