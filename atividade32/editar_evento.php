@@ -1,5 +1,5 @@
 <?php 
-include 'conexao.php';
+include 'banco.php';
 
 $nome=$_POST['nome'];
 $data=$_POST['data'];
