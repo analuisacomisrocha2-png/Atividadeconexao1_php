@@ -16,7 +16,7 @@
 <body>
     <form action="./enviar_funcionario.php" method="POST">
         <div class="h1">
-            <h1>Formulário do Produto</h1>
+            <h1>Cadastro de Livro</h1>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Livro:</label>
@@ -39,7 +39,7 @@
             <input type="text" class="form-control" id="exampleInputEmail1" name="entrega">
         </div>
 
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
     </form>
 </body>
 

@@ -19,8 +19,8 @@ echo "Editora:".$cliente['departamento']."<br>";
 echo "Ano da publicacao:".$cliente['salario']."<br>";
 echo "Entrega:".$cliente['entrega']."<br>";
 
-echo "<a href='funcionario.php?id= ". $cliente['id'] . "'> <button> Enviar </button> <a/>";
-echo "<a href='funcionario.php?id= ". $cliente['id'] . "'> <button> Excluir </button> <a/>";
+echo "<a href='funcionario.php?id= ". $cliente['id'] . "'> <button> Editar </button> <a/>";
+
 echo "<hr>";
 
 }
